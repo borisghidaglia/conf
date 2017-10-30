@@ -83,3 +83,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+
+# Custom prompt powerlevel9k
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(battery dir virtualenv vcs )
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator)
