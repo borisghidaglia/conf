@@ -30,6 +30,15 @@
   'Cite reference':
     'prefix': 'cite'
     'body': '\\\\textsuperscript{\\\\cite{$1}}'
+  'Bold':
+    'prefix': 'bold'
+    'body': '\\\\textbf{$1}'
+  'Italic':
+    'prefix': 'italic'
+    'body': '\\\\textit{$1}'
+  'New page':
+    'prefix': 'newpage'
+    'body': '\\\\newpage\n$1'
   'Insert image':
     'prefix': 'img'
     'body': """
