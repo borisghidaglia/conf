@@ -36,6 +36,9 @@
   'Italic':
     'prefix': 'italic'
     'body': '\\\\textit{$1}'
+  'Subsubsubsection':
+    'prefix': 'subsubsubsection'
+    'body': '\\\\subsubsubsection{$1}'
   'New page':
     'prefix': 'newpage'
     'body': '\\\\newpage\n$1'
